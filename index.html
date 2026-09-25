@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio de João Paulo Gutierres Dornelas — desenvolvimento web, software, APIs, IA e dados." />
+  <title>João Paulo Gutierres Dornelas | Portfólio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio">João Paulo<span>.</span></a>
+
+    <nav id="nav">
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#tecnologias">Tecnologias</a>
+      <a href="#formacao">Formação</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="kicker">DESENVOLVIMENTO DE SOFTWARE • WEB • APIs • IA</p>
+
+        <h1>
+          Olá, eu sou <span>João Paulo</span>.
+        </h1>
+
+        <p class="hero-text">
+          Tecnólogo em Sistemas para Internet pelo IFSP, com conhecimentos em
+          desenvolvimento web, programação, bancos de dados e integração de APIs.
+          Estou construindo minha trajetória profissional em tecnologia por meio de
+          projetos práticos e aprendizado contínuo.
+        </p>
+
+        <div class="actions">
+          <a class="btn primary" href="#projetos">Ver projetos</a>
+          <a class="btn secondary" href="https://www.linkedin.com/in/joaopaulogutierresdornelas/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+
+        <div class="quick-info">
+          <div>
+            <span>Localização</span>
+            <strong>São João da Boa Vista - SP</strong>
+          </div>
+          <div>
+            <span>Formação</span>
+            <strong>Tecnologia em Sistemas para Internet</strong>
+          </div>
+          <div>
+            <span>Objetivo</span>
+            <strong>Primeira oportunidade em tecnologia</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-panel">
+        <div class="code-head">
+          <span></span><span></span><span></span>
+          <small>profile.js</small>
+        </div>
+        <pre><code><span class="c-key">const</span> perfil = {
+  nome: <span class="c-string">"João Paulo"</span>,
+  foco: [
+    <span class="c-string">"Desenvolvimento Web"</span>,
+    <span class="c-string">"Software"</span>,
+    <span class="c-string">"APIs"</span>,
+    <span class="c-string">"IA"</span>
+  ],
+  tecnologias: [
+    <span class="c-string">"JavaScript"</span>,
+    <span class="c-string">"Python"</span>,
+    <span class="c-string">"Java"</span>,
+    <span class="c-string">"MySQL"</span>
+  ],
+  status: <span class="c-string">"Em evolução 🚀"</span>
+};</code></pre>
+      </div>
+    </section>
+
+    <section class="section" id="sobre">
+      <div class="section-title">
+        <span>01</span>
+        <h2>Sobre mim</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-main">
+          <p>
+            Sou formado em Tecnologia em Sistemas para Internet pelo Instituto Federal
+            de São Paulo (IFSP). Durante a graduação, desenvolvi conhecimentos em
+            desenvolvimento web, programação orientada a objetos, bancos de dados,
+            análise e desenvolvimento de sistemas e engenharia de software.
+          </p>
+          <p>
+            Atualmente trabalho como Auxiliar Administrativo, experiência que fortaleceu
+            competências como organização, análise de informações, responsabilidade,
+            atenção aos detalhes, comunicação e trabalho em equipe.
+          </p>
+          <p>
+            Meu objetivo é iniciar minha carreira profissional na área de tecnologia,
+            principalmente em desenvolvimento de software e desenvolvimento web, aplicando
+            meus conhecimentos em projetos reais e evoluindo continuamente.
+          </p>
+        </div>
+
+        <aside class="about-card">
+          <span class="label">Perfil</span>
+          <h3>Desenvolvedor em início de carreira</h3>
+          <p>
+            Interesse em front-end, back-end, automação, APIs, bancos de dados e aplicações
+            com inteligência artificial.
+          </p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="projetos">
+      <div class="section-title">
+        <span>02</span>
+        <h2>Projetos</h2>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card featured">
+          <div class="project-meta">
+            <span class="badge">PROJETO PESSOAL</span>
+            <span>IA • APIs • Web</span>
+          </div>
+
+          <h3>AtendeAI</h3>
+          <p>
+            Aplicação em desenvolvimento voltada à análise de atendimentos utilizando
+            inteligência artificial generativa. O sistema integra uma API de LLM para
+            analisar conversas e retornar informações estruturadas para apoiar a
+            organização dos atendimentos.
+          </p>
+
+          <div class="project-details">
+            <div>
+              <strong>O que pratiquei</strong>
+              <ul>
+                <li>Integração com API do Gemini</li>
+                <li>Envio e processamento de dados de conversas</li>
+                <li>Respostas estruturadas em JSON</li>
+                <li>Classificação por resumo, categoria e prioridade</li>
+                <li>Integração entre aplicação, banco de dados e LLM</li>
+              </ul>
+            </div>
+
+            <div>
+              <strong>Conceitos</strong>
+              <div class="chips">
+                <span>APIs</span>
+                <span>LLM</span>
+                <span>JSON</span>
+                <span>Automação</span>
+                <span>Banco de Dados</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-meta">
+            <span class="badge">TCC</span>
+            <span>Dados • Web</span>
+          </div>
+
+          <h3>Personalização de Conteúdos em Aplicações Web</h3>
+          <p>
+            Estudo desenvolvido como Trabalho de Conclusão de Curso sobre o uso de
+            análise de dados para personalizar conteúdos apresentados aos usuários
+            em aplicações web.
+          </p>
+
+          <ul>
+            <li>Análise de dados de navegação e comportamento</li>
+            <li>Personalização de conteúdo e recomendações</li>
+            <li>Melhoria da experiência do usuário e engajamento</li>
+            <li>Aplicação de conceitos de web, dados e banco de dados</li>
+          </ul>
+
+          <div class="chips">
+            <span>Web</span>
+            <span>Dados</span>
+            <span>UX</span>
+            <span>MySQL</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-meta">
+            <span class="badge">ESTUDOS PRÁTICOS</span>
+            <span>Programação</span>
+          </div>
+
+          <h3>Estudos em Lua 5.4</h3>
+          <p>
+            Estudos práticos de lógica de programação em Lua, incluindo exercícios
+            inspirados em sistemas comuns de jogos e manipulação de estados.
+          </p>
+
+          <ul>
+            <li>Variáveis e tipos de dados</li>
+            <li>Estruturas condicionais</li>
+            <li>Atributos como vida, mana, nível e estado</li>
+            <li>Lógica simples de combate e atualização de valores</li>
+          </ul>
+
+          <div class="chips">
+            <span>Lua 5.4</span>
+            <span>Lógica</span>
+            <span>Algoritmos</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="tecnologias">
+      <div class="section-title">
+        <span>03</span>
+        <h2>Tecnologias e conhecimentos</h2>
+      </div>
+
+      <div class="tech-layout">
+        <div class="tech-group">
+          <h3>Programação</h3>
+          <div class="tech-list">
+            <span>JavaScript</span>
+            <span>Python</span>
+            <span>Java</span>
+            <span>Lua 5.4</span>
+          </div>
+        </div>
+
+        <div class="tech-group">
+          <h3>Web</h3>
+          <div class="tech-list">
+            <span>HTML5</span>
+            <span>CSS</span>
+            <span>APIs REST</span>
+            <span>JSON</span>
+          </div>
+        </div>
+
+        <div class="tech-group">
+          <h3>Dados</h3>
+          <div class="tech-list">
+            <span>MySQL</span>
+            <span>SQL</span>
+            <span>Modelagem Relacional</span>
+            <span>Análise de Dados</span>
+          </div>
+        </div>
+
+        <div class="tech-group">
+          <h3>Outros conhecimentos</h3>
+          <div class="tech-list">
+            <span>Orientação a Objetos</span>
+            <span>Engenharia de Software</span>
+            <span>Metodologias Ágeis</span>
+            <span>Levantamento de Requisitos</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="formacao">
+      <div class="section-title">
+        <span>04</span>
+        <h2>Formação e experiência</h2>
+      </div>
+
+      <div class="timeline">
+        <article>
+          <div class="timeline-year">2023 — 2025</div>
+          <div>
+            <h3>Tecnologia em Sistemas para Internet</h3>
+            <p>Instituto Federal de Educação, Ciência e Tecnologia de São Paulo (IFSP)</p>
+            <small>Desenvolvimento web, Java, Python, JavaScript, bancos de dados, análise de sistemas e projetos com metodologias ágeis.</small>
+          </div>
+        </article>
+
+        <article>
+          <div class="timeline-year">2025 — Atual</div>
+          <div>
+            <h3>Auxiliar Administrativo</h3>
+            <p>Santa Casa Dona Carolina Malheiros</p>
+            <small>Controle e organização de informações, elaboração e atualização de planilhas, conferência de dados e suporte a processos administrativos.</small>
+          </div>
+        </article>
+
+        <article>
+          <div class="timeline-year">2024 — 2025</div>
+          <div>
+            <h3>Jovem Aprendiz Administrativo</h3>
+            <p>Santa Casa Dona Carolina Malheiros</p>
+            <small>Organização de documentos, atualização de informações em sistemas internos, suporte às demandas dos setores e atendimento a solicitações internas.</small>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contato">
+      <div>
+        <span class="label">CONTATO</span>
+        <h2>Aberto a oportunidades em tecnologia.</h2>
+        <p>
+          Tenho interesse em oportunidades de nível Júnior nas áreas de desenvolvimento
+          web, desenvolvimento de software e áreas relacionadas.
+        </p>
+      </div>
+
+      <div class="contact-card">
+        <a href="mailto:joaopaulogd2004@gmail.com">
+          <span>E-mail</span>
+          <strong>joaopaulogd2004@gmail.com</strong>
+        </a>
+        <a href="https://www.linkedin.com/in/joaopaulogutierresdornelas/" target="_blank" rel="noreferrer">
+          <span>LinkedIn</span>
+          <strong>joaopaulogutierresdornelas</strong>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>João Paulo Gutierres Dornelas</span>
+    <span>Portfólio desenvolvido com HTML, CSS e JavaScript</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
